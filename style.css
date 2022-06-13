@@ -5,17 +5,19 @@ body {
 
 h1 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 26px;
 }
-h3{
+
+h3 {
     margin-top: 5px;
 }
 
 span {
-    color: rgb(148, 165, 165);
+    color: rgb(38, 114, 38);
 }
 
 .profile-img {
@@ -27,25 +29,26 @@ span {
 header,
 section {
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 
 address ul {
     list-style: none;
 }
-header li{
+
+header li {
     margin-bottom: 15px;
 }
-.address-img{
+
+.address-img {
     width: 16px;
     height: 16px;
     background-color: rgb(50, 156, 50);
@@ -53,32 +56,72 @@ header li{
     padding: 8px;
     vertical-align: middle;
 }
-.circle{
+
+.circle {
     border-radius: 50%;
 }
-img{
+
+img {
     height: 32px;
     width: 32px;
 }
-.hobbies{
+
+.hobbies {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
-.hobbies li{
+
+.hobbies li {
     width: 50%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
 }
 
-.hobbies div{
+.hobbies div {
     margin-left: 20px;
 }
-.hobbies p{
-    color:grey;
+
+.hobbies p {
+    color: rgb(38, 114, 38);
 }
-p{
+
+p {
     line-height: 1.5;
+}
+
+.download-cv {
+    border: 5px solid rgb(38, 114, 38);
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    border-radius: 26px;
+    display: inline-block;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 10px 10px 20px rgb(38, 114, 38);
+
+}
+
+.download-cv:hover {
+    color: white;
+    background-color: rgb(38, 114, 38);
+}
+.download-cv:focus {
+    outline: none;
+    color: white;
+    background-color: rgb(38, 114, 38);
+}
+.download-cv:active {
+    text-decoration: underline;
+}
+.container{
+    box-shadow: 0 0 20px rgb(38, 114, 38);
+    background-color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
